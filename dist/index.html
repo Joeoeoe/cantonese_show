@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=boat.png><title>粤剧文化博览</title><script>function setRem() {
+            const
+                winWidth = window.innerWidth,
+                designWidth = 1366,
+                htmlDom = document.getElementsByTagName('html')[0];
+            htmlDom.style.fontSize = (16/(designWidth/winWidth)) + 'px';
+        }
+        setRem();
+        window.addEventListener('resize', setRem);</script><style>div, p{
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: #f8f8f6;
+        }
+        .load{
+            width: 60rem;
+            height: 10rem;
+            margin: 15rem auto 0 auto;
+            position: relative;
+        }
+        .load p{
+            font-family: sans-serif;
+            text-align: center;
+            color: #3c5282;
+        }
+        .load-boat{
+            width: 4.75rem;
+            height: 5.625rem;
+            transform: scale(0.8);
+            background-image: url("boat.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: 2rem auto 0 auto;
+            position: relative;
+            animation-name: boat-animate;
+            animation-delay: 1s;
+            animation-duration: 2s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes boat-animate {
+            0%{
+                top: 0;
+                transform: rotate(0turn);
+            }
+            50%{
+                top: 3rem;
+                transform: rotate(0.03turn);
+            }
+            100%{
+                top: 0;
+                transform: rotate(0turn);
+            }
+        }</style><link href=js/about.69260e02.js rel=prefetch><link href=css/app.9d316419.css rel=preload as=style><link href=js/app.c79d38dd.js rel=preload as=script><link href=js/chunk-vendors.03ac5140.js rel=preload as=script><link href=css/app.9d316419.css rel=stylesheet></head><body><noscript><strong>We're sorry but cantonese_opera doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app><div class=wrap><div class=load><p>努力前进中,摇摇摇~</p><div class=load-boat></div></div></div></div><script src=js/chunk-vendors.03ac5140.js></script><script src=js/app.c79d38dd.js></script></body></html>
